@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width: 100%;
+    height: 10vh;
+    background-color: #BFBFBF;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+button{
+    background-color: #F2F2F2;
+    border: none;
+    width: 100px;
+    height: 5vh;
+    margin-left: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 1rem;
+}
+
+button:first-child{
+    margin-top: 20px;
+}
+
+.caixa{
+    width: 100%;
+    flex-direction: row;
+}
+
+
+.ButtonDesign{
+    width: 200px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.BoxInputs{
+    width: 30vw;
+    height: 30vh;
+    padding: 10px;
+
+    
+}
+
+input{
+    width: 200px;
+    height: 5vh;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+}
